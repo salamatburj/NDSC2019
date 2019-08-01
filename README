@@ -1,14 +1,19 @@
-This archive is part of the NLPL Word Vectors Repository (http://vectors.nlpl.eu/repository/), version 1.1, published on Monday, January 29,2018.
-Please see the file 'meta.json' in this archive and the overall repository metadata file http://vectors.nlpl.eu/repository/11.json for additional information.
-The life-time identifier for this model is:
-http://vectors.nlpl.eu/repository/11/50.zip
-
-
 Competition Name: National Data Science Challenge 2019 - Beginner : Product Category Classification
 Competition url: https://www.kaggle.com/c/ndsc-beginner
 Competition objective: Product category classifications from the images and text of the www.shopee.sg ads.  
 Evaluation: Accuracy
 Data for competition can be downloaded here: kaggle competitions download -c ndsc-beginner
+Data type: Images(.jpg) and text
+
+Table of content:
+1) Seperating images to folders
+2) Training image classification
+3) Text tokanization and pipelines for text categorization
+4) word2vec methods
+5) Ensembling results
+
+Basic requirements: fast.ai library , image classification trained on  NVIDIA 1080Ti GPU
+
 
 
 
